@@ -56,3 +56,18 @@ h1 {
 	bottom: 0px;
 	z-index = 10;
 }
+
+@media (max-width: 800px) {
+	h1 {
+		font-size: 30px;
+		top: 32px;
+	}
+	.titletxt {
+		top: 32px;
+	}
+	.content {
+		left: 2%;
+		right: 2%;
+		width: 96%;
+	}
+}
