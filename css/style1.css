@@ -47,12 +47,12 @@ h1 {
 }
 
 .footer {
-	position: absolute;
+	position: fixed;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	background-color: #FF8C00;
 	color: #FFFFFF;
 	left: 0px;
 	right: 0px;
-	bottom: -16px;
+	bottom: 0px;
 	z-index = 10;
 }
