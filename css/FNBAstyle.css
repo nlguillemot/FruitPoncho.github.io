@@ -1,0 +1,99 @@
+html {
+	height: 100%;
+	background-color: #404040;
+	background-image: url('../res/FNBA/stripes.png');
+	background-repeat: repeat-x;
+}
+
+body {
+	background-color: #EEEEEE;
+	/*font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;*/
+	margin: auto;
+	height: 1500px;
+	width: 62%;
+	padding-left: 8px;
+	padding-right: 8px;
+	
+}
+
+h1 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 80px;
+	margin: auto;
+}
+
+ul, .lefty{
+	text-align:left;
+}
+
+a:link {
+    color: #FA5C5C;
+}
+a:visited {
+    color: #FA5C5C;
+}
+a:hover {
+    color: #FA5C5C;
+	text-decoration: underline;
+}
+a:active {
+    color: #FA5C5C;
+}
+
+.columnLeft {
+	float: left;
+	width: 55%;
+}
+.columnRight {
+	float: right;
+	width: 40%;
+}
+
+#container {
+    position: relative;
+    width: 256px; height: 18px;
+}
+#block  {
+    background-image: url('../res/FNBA/stripes.png');
+    filter:alpha(opacity=40); /* IE */
+    -moz-opacity:0.4; /* Mozilla */
+    opacity: 0.4; /* CSS3 */
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width:100%;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+#text {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+	
+	color: #000000;
+	text-decoration: none;
+	
+	text-shadow:
+      -1px -1px 0 #FFF,  
+       1px -1px 0 #FFF,
+      -1px  1px 0 #FFF,
+       1px  1px 0 #FFF;
+}
+
+
+img{
+	max-width: 100%;
+}
+
+hr{
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+.screen:hover {
+	max-width: 95%;
+	padding-bottom: 2.5%;
+	padding-top: 2.5%;
+}
